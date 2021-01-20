@@ -1,0 +1,30 @@
+@model PizzaBox.Client.Models.DetailViewModel
+@{
+    Layout = "_CustomLayout";
+    ViewBag.Title = "Customer - Home";
+}
+<h1>Total Orders of Store @ViewBag.StoreId</h1>
+
+@foreach (var order in Model.Orders)
+{
+    <ul>@order</ul>
+}
+<h1>Total Revenue: $ @Model.TotalPrice.ToString("c2")</h1>
+
+<br/>
+
+<h3>You're pizzas </h3> 
+
+@foreach (var pizza in Model.Pizzas)
+{
+    <ul>
+        <li>@pizza.Crust, $ @pizza.Price, @pizza.Size</li>
+        @foreach (var topping in @pizza.Toppings)
+        {
+            <ul>
+                <li>@topping.Name</li>
+            </ul>
+        }
+    </ul>
+}
+<h2>Your Total: $ @Model.TotalPizzaPrice.ToString("c2")</h2>

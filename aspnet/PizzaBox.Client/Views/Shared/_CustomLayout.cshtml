@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewBag.Title</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark mt-4">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a asp-action="index" asp-controller="store" class="nav-link">Home</a> 
+                </li>
+            </ul>
+        </nav>
+        
+        <header class="row">
+            <h1 class="text-center">PizzaBox</h1>
+            <nav></nav>
+
+        </header>
+
+        <main class="row">
+            @RenderBody()
+        </main>
+        <footer class="row">
+            <small>&copy; 2021 nar rai</small>
+        </footer>
+        </div>
+    </body>
+</html>

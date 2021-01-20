@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/narrai/.dotnet/store/|arch|/|tfm|",
+      "/Users/narrai/.nuget/packages"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+@model PizzaBox.Client.Models.CustomerViewModel
+
+@{
+    Layout = "_CustomLayout";
+    ViewBag.Title = "Customer - Home";
+}
+
+<section>
+@* @Model.customer.Name *@
+</section>
+<form asp-controller="customer" asp-action="index" method="POST">
+    @foreach (var customer in Model.customers)
+    {
+        @Html.RadioButtonFor(s => s.selectedCustomer, @customer.EntityId) @customer.Name
+    }
+   <button type="submit">Login</button>
+</form>
+
+@* @Html.Partial("Order", Model.cusOrder);  *@
+

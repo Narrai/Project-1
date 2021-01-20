@@ -1,0 +1,34 @@
+@model PizzaBox.Client.Models.OrderViewModel
+@{
+    Layout = "_CustomLayout";
+    ViewBag.Title = "Customer - Home";
+}
+<h1>You're in store: @ViewBag.SelectedStore</h1>
+<h2>Make you delicious PIZZA</h2>
+@* Crusts radio *@
+<h3>Pick Cursts</h3>
+<form asp-controller="order" asp-action="index" method="POST">
+    @foreach (var crust in Model.crusts)
+    {
+        <input type="radio" asp-for="Crust" value="@crust.Name" class="m-2"/> @crust.Name
+    }
+<br/>
+<h3>Pick Sizes</h3>
+@* Sizes (Price will be determined by size) *@
+
+    @foreach (var size in Model.sizes)
+    {
+        <input type="radio" asp-for="Size" value="@size.Size" class="m-2"/> @size.Size
+    }
+
+<br/>
+@* Toppings *@
+    <h3>Pick Toppings</h3>
+
+    @foreach (var topping in Model.toppings)
+    {
+        <input type="checkbox" name="Toppings" value="@topping.Name" class="m-2"/> @topping.Name
+    }
+    <br/>
+    <button class="btn btn-primary btn-sm" type="submit">Submit</button>
+</form>
