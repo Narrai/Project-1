@@ -5800,11 +5800,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Client/PizzaBox.Client.csproj",
+      "projectUniqueName": "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Client/PizzaBox.Client.csproj",
       "projectName": "PizzaBox.Client",
-      "projectPath": "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Client/PizzaBox.Client.csproj",
+      "projectPath": "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Client/PizzaBox.Client.csproj",
       "packagesPath": "/Users/narrai/.nuget/packages/",
-      "outputPath": "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Client/obj/",
+      "outputPath": "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/narrai/.nuget/NuGet/NuGet.Config"
@@ -5819,8 +5819,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Storing/PizzaBox.Storing.csproj": {
-              "projectPath": "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Storing/PizzaBox.Storing.csproj"
+            "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Storing/PizzaBox.Storing.csproj": {
+              "projectPath": "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Storing/PizzaBox.Storing.csproj"
             }
           }
         }

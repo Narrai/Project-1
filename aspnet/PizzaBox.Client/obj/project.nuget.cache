@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T5ymbC3+wxkLMjXlofSabJOFhcSxCPsMDMFAIX8kbj0Hhjp89+s0Ogzxfi6jbR2FKqf3Twcf1lECwGuHLQDDzQ==",
+  "dgSpecHash": "Lgnj6dX52ffU9C1WHQTtF/OW5u3+cRjyyHBSSuSzBDofLcm16Dnn91j6pTFbGDf/BvDgCiPy3ngb6MuXh03BYQ==",
   "success": true,
-  "projectFilePath": "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Client/PizzaBox.Client.csproj",
+  "projectFilePath": "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Client/PizzaBox.Client.csproj",
   "expectedPackageFiles": [
     "/Users/narrai/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/narrai/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

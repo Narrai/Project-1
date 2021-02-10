@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Domain/PizzaBox.Domain.csproj",
+      "projectUniqueName": "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Domain/PizzaBox.Domain.csproj",
       "projectName": "PizzaBox.Domain",
-      "projectPath": "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Domain/PizzaBox.Domain.csproj",
+      "projectPath": "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Domain/PizzaBox.Domain.csproj",
       "packagesPath": "/Users/narrai/.nuget/packages/",
-      "outputPath": "/Users/narrai/revature/week-3/p1/aspnet/PizzaBox.Domain/obj/",
+      "outputPath": "/Users/narrai/revature/p1/Project-1/aspnet/PizzaBox.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/narrai/.nuget/NuGet/NuGet.Config"
